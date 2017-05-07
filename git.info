@@ -4,3 +4,6 @@ git remote add origin https://github.com/xiaotianle/hadoop.git
 git config --global user.email "xiaotianle_168@126.com"  #github 服务器邮箱
 git config --global user.name "xiaotianle"               #github 用户名
 git pull origin master      #将github服务器资源拉取到本地
+git add git.info
+git commit -m "add git_info"
+git push -u origin master   #
