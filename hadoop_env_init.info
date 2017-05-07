@@ -1,0 +1,41 @@
+1. 设置IP
+ifconfig eth0 192.168.1.121
+#如果要让IP地址永久生效，需要编辑网卡配置文件
+#使用VI编辑器设置，如 vi /etc/sysconfig/network-scripts/ifcfg-eth0  
+vi /etc/sysconfig/network-scripts/ifcfg-eth0 
+DEVICE="eth0"
+BOOTPROTO="static"
+BROADCAST="192.168.1.255"
+NETMASK="255.255.255.0"
+GETWAY="192.168.1.1"
+DNS1="192.168.1.1"
+IPADDR="192.168.1.121"
+HWADDR="00:0C:29:8A:61:3C"
+IPV6INIT="yes"
+NM_CONTROLLED="yes"
+ONBOOT="yes"
+TYPE="Ethernet"
+UUID="65642297-704e-41c7-9c90-926320dee579"
+
+
+2. 安装sshd
+
+
+3. 生成秘钥并且各服务器实现免密码登录
+
+
+4. 安装jdk1.7
+
+
+5. 安装hadoop 
+
+
+6. 测试hadoop是否允许正常
+
+
+7. 安装hive
+
+
+8. 测试hive是否正常
+
+
